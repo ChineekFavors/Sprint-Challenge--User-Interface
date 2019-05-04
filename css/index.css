@@ -209,3 +209,72 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*about page*/
+.about-section{
+   border-bottom: 1px dashed;
+    width: 60px;
+   
+    width: 644px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.about-section p{
+    padding-left: 10px;
+}
+
+.btn-img{
+    display: flex;
+    flex-direction: row;
+
+}
+.btn-img div img{
+    margin-bottom: 10px;
+}
+.btn-img div p{
+    margin-bottom: 10px;
+}
+.btn-img div button{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+.btn-img div{
+    border-bottom: 2px dashed black;
+    margin-bottom: 10px;
+}
+
+.btn-img2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.btn-img2 div button{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+}
+.btn-img2 div p{
+    margin-bottom: 10px;
+}
+.btn-img2 div img{
+    margin-bottom: 10px;
+}
+.btn-img2 div{
+    border-bottom: 2px dashed black;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
