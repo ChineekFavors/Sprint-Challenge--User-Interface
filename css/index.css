@@ -65,6 +65,25 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* header section*/
+.header-section{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    
+
+}
+.header-section nav{
+    margin-top: 25px;
+}
+.header-section nav a{
+    text-decoration: none;
+    margin-left: 70px;
+    color: black;
+}
+.jumbo{
+    margin-bottom: 40px;
+}
 
 .container {
     width: 800px;
