@@ -65,6 +65,25 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* header section*/
+.header-section{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    
+
+}
+.header-section nav{
+    margin-top: 25px;
+}
+.header-section nav a{
+    text-decoration: none;
+    margin-left: 70px;
+    color: black;
+}
+.jumbo{
+    margin-bottom: 40px;
+}
 
 .container {
     width: 800px;
@@ -104,12 +123,58 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/* middle section boxes*/
+.box1{
+    background-color: teal;
+    color: white;
+}
+.box2{
+    background-color: gold;
+    color: white;
+}
+.box3{
+    background-color: cadetblue;
+    color: white;
+
+}
+.box4{
+    background-color: coral;
+    color: white;
+
+}
+.box5{
+    background-color: crimson;
+    color: white;
+
+}
+.box6{
+    background-color: forestgreen;
+    color: white;
+
+}
+.box7{
+    background-color: darkorchid;
+    color: white;
+
+}
+.box8{
+    background-color: hotpink;
+    color: white;
+}
+.box9{
+    background-color: indigo;
+    color: white;
+}
+.box10{
+    background-color: dodgerblue;
+    color: white;
 }
 
 .bottom-content {
@@ -144,3 +209,72 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*about page*/
+.about-section{
+   border-bottom: 1px dashed;
+    width: 60px;
+   
+    width: 644px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.about-section p{
+    padding-left: 10px;
+}
+
+.btn-img{
+    display: flex;
+    flex-direction: row;
+
+}
+.btn-img div img{
+    margin-bottom: 10px;
+}
+.btn-img div p{
+    margin-bottom: 10px;
+}
+.btn-img div button{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+.btn-img div{
+    border-bottom: 2px dashed black;
+    margin-bottom: 10px;
+}
+
+.btn-img2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.btn-img2 div button{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+}
+.btn-img2 div p{
+    margin-bottom: 10px;
+}
+.btn-img2 div img{
+    margin-bottom: 10px;
+}
+.btn-img2 div{
+    border-bottom: 2px dashed black;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
